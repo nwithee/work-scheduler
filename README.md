@@ -12,7 +12,7 @@ A website for scheduling your daily tasks
 https://nwithee.github.io/work-scheduler/
 
 ## Screenshot
-
+![App Screenshot] (https://github.com/nwithee/work-scheduler/blob/main/assets/images/screenshot.png)
 
 ## Contribution
 Made by [Nevin Withee]
