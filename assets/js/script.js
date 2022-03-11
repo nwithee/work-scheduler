@@ -46,9 +46,6 @@ var saveEvent = function (){
         //get value of time from parent div
         var time = $(this).parent().attr("id");
 
-        console.log(message);
-        console.log(time);
-
         localStorage.setItem(time, message);
     })
 
@@ -57,8 +54,6 @@ var saveEvent = function (){
         var number = i;
         $("#" + number + " .description").val(localStorage.getItem(number));
     }
-
-    //$("#8 .description").val(localStorage.getItem("8"));
 }
 
 colorSet();
